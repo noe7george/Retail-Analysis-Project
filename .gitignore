@@ -1,5 +1,6 @@
 # ============================================
-# Power BI
+# Power BI temporary & backup files
+# (These appear when the .pbix is OPEN in Power BI)
 # ============================================
 ~*.pbix
 *.pbix~
@@ -7,41 +8,30 @@
 *.pbix.tmp
 
 # ============================================
-# Microsoft Excel
+# Microsoft Excel temporary files
 # ============================================
 ~$*.xlsx
 ~$*.xls
 *.xlsb
 
 # ============================================
-# Operating System Files
+# Operating System junk
 # ============================================
 .DS_Store
-.DS_Store?
 ._*
-.Spotlight-V100
 .Trashes
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 
 # ============================================
-# Python (for future analysis scripts)
+# Python (if you add analysis scripts later)
 # ============================================
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
 .venv/
 venv/
-env/
 .ipynb_checkpoints/
-
-# ============================================
-# Jupyter Notebook
-# ============================================
-.ipynb_checkpoints
-*.ipynb_checkpoints
 
 # ============================================
 # Environment & Secrets
@@ -64,12 +54,3 @@ env/
 # ============================================
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
-
-# ============================================
-# Large Data Files (optional - uncomment if needed)
-# ============================================
-# *.csv
-# *.zip
-# *.rar
