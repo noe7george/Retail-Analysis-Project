@@ -61,3 +61,16 @@ Atliq ran Diwali and Sankranti campaigns with 5 promo types (25% OFF, 33% OFF, 5
 
 ## 📜 License
 MIT License — see `LICENSE` file.
+
+## ⚠️ Opening the Power BI File
+
+The `.pbix` file includes cached data, so it will open and display 
+all visuals immediately. However, if you want to refresh the data 
+from source:
+
+1. Open `powerbi/Retail_Analysis.pbix` in Power BI Desktop.
+2. Go to **Home → Transform Data → Data Source Settings**.
+3. Update the file paths to point to `data/raw/*.csv` in your local clone.
+4. Click **Refresh**.
+
+Data model: Products (15) → Events (10,150) ← Stores (50), Campaigns (4)
